@@ -163,6 +163,12 @@ public class User {
             return false;
         }
 
+
+        // Method to get the list of registered users
+        public List<User> getRegisteredUsers() {
+            return userList;
+        }
+
     }
 }
 
